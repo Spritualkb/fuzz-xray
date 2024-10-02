@@ -1,0 +1,64 @@
+exec_path: ''
+disable_headless: false
+subdomain: true
+leakless: true
+force_sandbox: false
+enable_image: false
+parent_path_detect: true
+proxy: ''
+user_agent: ''
+domain_headers:
+- domain: '*'
+  headers: {Cookie: ''}
+max_depth: 10
+navigate_timeout_second: 10
+load_timeout_second: 10
+retry: 0
+page_analyze_timeout_second: 300
+max_interactive: 1000
+max_interactive_depth: 10
+max_page_concurrent: 10
+max_page_visit: 1000
+max_page_visit_per_site: 1000
+element_filter_strength: 0
+new_task_filter_config:
+  hostname_allowed: []
+  hostname_disallowed: []
+  port_allowed: []
+  port_disallowed: []
+  path_allowed: []
+  path_disallowed: []
+  query_key_allowed: []
+  query_key_disallowed: []
+  fragment_allowed: []
+  fragment_disallowed: []
+  post_key_allowed: []
+  post_key_disallowed: []
+request_send_filter_config:
+  hostname_allowed: []
+  hostname_disallowed: []
+  port_allowed: []
+  port_disallowed: []
+  path_allowed: []
+  path_disallowed: []
+  query_key_allowed: []
+  query_key_disallowed: []
+  fragment_allowed: []
+  fragment_disallowed: []
+  post_key_allowed: []
+  post_key_disallowed: []
+request_output_filter_config:
+  hostname_allowed: []
+  hostname_disallowed: []
+  port_allowed: []
+  port_disallowed: []
+  path_allowed: []
+  path_disallowed: []
+  query_key_allowed: []
+  query_key_disallowed: []
+  fragment_allowed: []
+  fragment_disallowed: []
+  post_key_allowed: []
+  post_key_disallowed: []
+entrance_retry: 0
+max_similar_request: 0
